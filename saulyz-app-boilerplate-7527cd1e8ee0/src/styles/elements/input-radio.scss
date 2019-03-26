@@ -1,10 +1,10 @@
-.form-radio
+.radiobutton
 {
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
      display: inline-block;
-     position: relative;
+     //position: relative;
      background-color: #f1f1f1;
      color: #666;
      top: 10px;
@@ -16,7 +16,7 @@
      margin-right: 7px;
      outline: none;
 }
-.form-radio:checked::before
+.radiobutton:checked::before
 {
      position: absolute;
      font: 13px/1 'Open Sans', sans-serif;
@@ -25,11 +25,11 @@
      content: '\02143';
      transform: rotate(40deg);
 }
-.form-radio:hover
+.radiobutton:hover
 {
      background-color: #f7f7f7;
 }
-.form-radio:checked
+.radiobutton:checked
 {
      background-color: #f1f1f1;
 }
